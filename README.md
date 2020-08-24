@@ -19,12 +19,12 @@ We identify a mutation in the N gene of SARS-CoV-2 that adversely affects anneal
 `./data/sequence_metadata.tsv` contains the accession numbers of all sequences used in this analysis. Per GISAID terms of service, these can be downloaded via [gisaid.org](gisaid.org).  
 
 ### qPCR values  
-See `./data/qPCR_values.tsv`.  
+See `./data/Figure1*_rawdata.tsv`.  
 
 ### Analysis and Figures  
-The tree was generated via [Nextstrain's augur](https://github.com/nextstrain/augur), v10.0.0. The config files used are located in `tree/nextstrain-config`.  
+The tree was generated via [Nextstrain's augur](https://github.com/nextstrain/augur), v10.0.0, via the workflow specified in [nextstrain/ncov](https://github.com/nextstrain/ncov/commit/d03944a99edbad3f6c05fbb9b0caad46fdd77098) at the linked commit. The config files used are located in `tree/nextstrain-config/`.  
 
-Figure 1 was generated in PRISM. Figure 2 was generated using the code found in `tree/figure/`.
+Figure 1 was generated in PRISM. Figure 2 was generated using the code found in `figures/`.
 
 ### Additional citations  
 Our work is possible because of the computational tools developed by the research community. We gratefully acknowledge their contributions, and regret the journal-imposed limitation on the number of citations.   
