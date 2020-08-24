@@ -1,6 +1,5 @@
 ## TODO:  
 * Add link to DOI  
-* Add Ct values to data  
 * Add Jack's code to `figures`
 
 # Identification of a polymorphism in the N gene of SARS-CoV-2 that adversely impacts detection by a widely-used RT-PCR assay.
