@@ -25,3 +25,13 @@ See `./data/qPCR_values.tsv`.
 The tree was generated via [Nextstrain's augur](https://github.com/nextstrain/augur), v10.0.0. The config files used are located in `tree/nextstrain-config`.  
 
 Figure 1 was generated in PRISM. Figure 2 was generated using the code found in `tree/figure/`.
+
+### Additional citations  
+Our work is possible because of the computational tools developed by the research community. We gratefully acknowledge their contributions, and regret the journal-imposed limitation on the number of citations.   
+
+* Nguyen, L.T., Schmidt, H., Haeseler, A., & Minh, B. (2014). IQ-TREE: a fast and effective stochastic algorithm for estimating maximum-likelihood phylogeniesMolecular biology and evolution, 32(1), 268–274.  
+* Katoh, K., & Standley, D. (2013). MAFFT multiple sequence alignment software version 7: improvements in performance and usabilityMolecular biology and evolution, 30(4), 772–780.  
+* Pérez, F., & Granger, B. (2007). IPython: a system for interactive scientific computingComputing in Science & Engineering, 9(3), 21–29.    
+* IQ-Tree builds the tree under the hood; Mafft does the alignment; IPython is the computing environment.  
+* RStudio Team (2020). RStudio: Integrated Development for R. RStudio, PBC, Boston, MA URL http://www.rstudio.com/.  
+* Yu G (2020). "Using ggtree to Visualize Data on Tree-Like Structures." Current Protocols in Bioinformatics, 69(1), e96. doi: 10.1002/cpbi.96, https://currentprotocols.onlinelibrary.wiley.com/doi/abs/10.1002/cpbi.96.  
