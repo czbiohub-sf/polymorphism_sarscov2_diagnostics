@@ -23,6 +23,6 @@ We identify a mutation in the N gene of SARS-CoV-2 that adversely affects anneal
 See `./data/qPCR_values.tsv`.  
 
 ### Analysis and Figures  
-The tree was generated via [Nextstrain's augur](https://github.com/nextstrain/augur), v10.0.0. The config files used are located in `nextstrain-config`.  
+The tree was generated via [Nextstrain's augur](https://github.com/nextstrain/augur), v10.0.0. The config files used are located in `tree/nextstrain-config`.  
 
-Figure 1 was generated in PRISM. Figure 2 was generated using the code found in `figures/fig2.rmd`.
+Figure 1 was generated in PRISM. Figure 2 was generated using the code found in `tree/figure/`.
