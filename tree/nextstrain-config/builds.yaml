@@ -1,0 +1,39 @@
+# Define locations for which builds should be created.
+# For each build we specify a subsampling scheme via an explicit key.
+# If the name of the focal geography differs from the build name this needs to
+# be specified explicity as geographic_name. In addition, we require the
+# geographic scale the build focuses on. Together name and scale serve a look-up
+# in the geo_hierarchy to define region, country, division, etc
+title: "SARS-CoV-2 build"
+
+builds:
+  rtpcr_mutant:
+    subsampling_scheme: selected
+    division: California
+    region: North America
+    country: USA
+    title: "RT-PCR mutation"
+
+files:
+  lat_longs: "my_profiles/madera/lat_longs.tsv"
+  ordering: "my_profiles/madera/ordering.tsv"
+  auspice_config: "my_profiles/madera/madera_auspice_config.json"
+  include: "my_profiles/madera/include.txt"
+  sequences: "my_profiles/madera/all_sequences.fasta"
+  metadata: "my_profiles/madera/all_metadata.tsv"
+
+# Subsampling logic
+subsampling:
+  selected:
+    focal:
+      group_by: "year month"
+      seq_per_group: 300
+      exclude: "--exclude-where 'selected_samples!=True'"
+    # Samples that are genetically related to the focal samples
+    related:
+      group_by: "region year"
+      seq_per_group: 7
+      exclude: "--exclude-where 'selected_samples==True'"
+      priorities:
+        type: "proximity"
+        focus: "focal"
