@@ -1,8 +1,5 @@
-## TODO:  
-* Add link to DOI  
-* Add Jack's code to `figures`
-
-# Identification of a polymorphism in the N gene of SARS-CoV-2 that adversely impacts detection by a widely-used RT-PCR assay.
+# [Identification of a polymorphism in the N gene of SARS-CoV-2 that adversely impacts detection by a widely-used RT-PCR assay.](https://www.biorxiv.org/content/10.1101/2020.08.25.265074v1)  
+**DOI: https://doi.org/10.1101/2020.08.25.265074**  
 Manu Vanaerschot, Sabrina Mann, James T. Webber, Jack Kamm, Sidney M. Bell, John Bell, Si Noon Hong, Minh Nguyen, Lienna Chan, Karan Bhatt, Michelle Tan, Angela Detweiler, Wesley Wu, Joshua Batson, David Dynerman, CLIAHUB Consortium, Debra Wadford, Andreas S. Puschnik, Norma Neff, Vida Ahyong, Steve Miller, Patrick Ayscue, Simon Paul, Amy Kistler, Joe L. DeRisi, Emily D. Crawford  
 <sub>Chan Zuckerberg Biohub, San Francisco, California, USA (Manu Vanaerschot, Sabrina Mann, James T. Webber, Jack Kamm, Lienna Chan, Karan Bhatt, Michelle Tan, Angela Detweiler, Wesley Wu, Josh Batson, David Dynerman, Andreas S. Puschnik, Vida Ahyong, Norma Neff, Patrick Ayscue, Amy Kistler, Joe L. DeRisi, E. D. Crawford)  
 Chan Zuckerberg Initiative, Redwood City, California, USA (Sidney M. Bell)
